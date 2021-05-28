@@ -1,0 +1,164 @@
+---
+tags:
+  - beatmap discussions
+  - modding V2
+  - MV2
+---
+
+<!-- TODO: the interface has changed quite a bit. this whole article should be rechecked to make sure it all makes sense still -->
+
+# 비트맵 토론
+
+**비트맵 토론** (또는 *모딩 v2*)은 [모딩](/wiki/Modding) 과정을 관리 및 간소화하기 위한 제도입니다. 단순하고 이해하기 용이한 인터페이스를 구축하는 것이 주 목표이며, 비트맵의 개선에 초점을 두고 있습니다. 비트맵이 [등록](/wiki/Submission) 되었을 때, 비트맵 정보 페이지와 함께 비트맵 토론 페이지 또한 자동으로 생성됩니다. 비트맵이 업데이트 되면, 토론 페이지 또한 업데이트 됩니다. 비트맵 정보 페이지에 있는 `토론` 버튼을 누르면 비트맵 토론 페이지로 이동할 수 있습니다. 비트맵 토론 페이지는 다음과 같이 구성됩니다 (상단-하단):
+
+- 게임 모드 선택
+- 비트맵 헤더
+- 난이도 선택
+- 필터 옵션
+- 시각 타임라인
+- 비트맵 상태
+- 모딩 탭
+- 제출란
+- 토론
+
+이하 문단에서 설명하는 이미지는 해당 비트맵의 [토론 페이지](https://osu.ppy.sh/beatmapsets/924551/discussion)에서 찾아보실 수 있으며, 본인이 원하는 비트맵의 토론 페이지를 직접 열어보셔도 좋습니다!
+
+## 시작하기 전
+
+비트맵 토론 페이지를 효율적으로 사용하기 위해선 아래의 사항들을 참고하세요:
+
+- 모딩하고 싶은 게임 모드와 난이도를 고르세요.
+- 해당 모딩에 알맞는 부문을 고르세요..
+- **한 번에 한 가지 주제만 쓰세요.** 모딩 하나에 여러 주제가 섞여있으면 안됩니다.
+- 연관된 토론이 있다는 알림이 나올 경우 해당 주제와 관련된 모딩이 이미 존재하는지 확인하세요.
+- 비트맵이 마음에 들 때는, 랭크에 도움이 될 수 있도록 하이프를 달아 보세요.
+
+## 게임 모드 선택
+
+![](img/mode-selection.png "게임 모드 선택")
+
+모딩을 시작하기 전 [게임 모드](/wiki/Game_mode)를 알맞게 바꾸어야 합니다. 해당 비트맵이 보유한 게임 모드 중에서만 선택할 수 있습니다. 이는 2개 이상의 게임 모드를 보유한 비트맵셋에서만 해당되어, 단일 게임 모드 맵셋의 경우 자동으로 해당 모드로 선택됩니다.
+
+## 비트맵 헤더
+
+*메타데이터 세팅에 관련해서는 [곡 세팅 § 곡 및 맵 메타데이터](/wiki/Beatmap_Editor/Song_Setup#song-and-map-metadata) 문서를 참고하세요*
+
+![](img/beatmap-header.png "비트맵 헤더")
+
+비트맵 헤더는 [비트맵 에디터](/wiki/Beatmap_Editor)에서 제공하는 아티스트 및 곡 이름을 보여줍니다. 비트맵 헤더를 클릭하면 비트맵 정보 페이지로 다시 넘어갑니다.
+
+## 난이도 선택
+
+![](img/difficulty-menu.png "난이도 선택")
+
+이 드롭다운 메뉴를 통해 원하는 [난이도](/wiki/Beatmap/Difficulty)를 고를 수 있습니다. 이는 현재 사용 가능한 난이도 및 모딩이 달렸던 삭제된 옛날 난이도까지 전부 표시됩니다. 난이도 오른쪽에 나타나는 숫자는 해당 난이도에 달린 모딩 중 아직 해결되지 못한 이슈들의 개수를 나타냅니다. 모딩을 달기 전 해당 난이도가 맞는지 반드시 체크해야 합니다.
+
+## 필터 옵션
+![](img/sorting-options.jpg "정렬 방법")
+
+필터 옵션을 통해 비트맵 토론 페이지의 구성을 바꿀 수 있습니다. 필터가 걸릴 경우, 해당 필터 조건에 부합하는 타임라인 / 모딩만이 표시됩니다. 이는 미해결 모딩 게시물을 모아볼 때 유용합니다. 필터 목록으로는:
+
+- `내 글` 자신의 게시글만 표시
+- `노트` 매퍼 또는 [BN](/wiki/People/The_Team/Beatmap_Nominators)의 노트만 표시
+- `해결됨` 해결된 게시글만 표시
+- `미해결` 미해결 게시글만 표시
+- `칭찬` 칭찬 및 하이프만 표시
+- `모두` 모든 게시글 표시
+
+## 시각 타임라인
+
+![](img/visual-timeline.jpg "타임라인 전반에 걸친 모딩 게시글")
+
+시각 타임라인에선 해당 난이도에 달린 모딩 중 타임스탬프가 포함된 모딩을 표시합니다. 타임라인에 표시된 포인트를 클릭하면 해당 모딩으로 자동 스크롤됩니다. 필터를 바꿀 경우 타임라인 또한 달라집니다. 시각 타임라인은 해당 난이도에 얼만큼의 모딩이 달렸는지 한 눈에 알 수 있어 유용합니다. 빽빽한 타임라인은 이미 해당 비트맵이 많은 관심 및 모딩을 받았음을 의미합니다. 해당 난이도의 맵 세팅 또한 타임라인의 오른쪽 위에 표시됩니다. 왼쪽부터 오른쪽으로 해당 난이도의 `길이`, `BPM`, `서클 개수`, `슬라이더 개수`를 의미합니다.
+
+## 비트맵 상태
+
+![](img/beatmap-status.jpg "중요한 정보들입니다!")
+
+비트맵 상태란에선 [비트맵 랭크 절차](/wiki/Beatmap_ranking_procedure)에 필요한 중요한 정보들이 표시됩니다. 이는 다음을 포함합니다:
+
+- 하이프 개수
+- 일반 정보
+- 구독/구독 해제
+- 비트맵 정보
+
+### 하이프 개수
+
+해당 비트맵이 받은 [하이프](/wiki/Beatmap/Hype)의 개수를 표시합니다. 5개 이상의 하이프를 받을 경우, 해당 비트맵은 [BN](/wiki/People/The_Team/Beatmap_Nominators)에 의해 지명받을 수 있습니다. 하이프는 `일반 (모든 난이도)`탭에서만 줄 수 있으며, `일반 (해당 난이도)` 및 `타임라인`탭을 통해서는 줄 수 없습니다. `하이프` 버튼을 누르면 알맞는 탭으로 자동으로 이동합니다.
+
+### 지명 상태
+
+해당 비트맵이 받은 지명의 개수를 표시합니다. 2개의 지명을 받을 경우 Qualified 상태가 됩니다. <!--TODO: Insert 'Qualified' link-->
+
+### 일반 정보
+
+일반 정보에선 비트맵 제작자, 비트맵 등록 날짜, 마지막 업데이트 날짜를 표시합니다. 랭크, Loved, 무덤으로 가는 등의 [상태 변경](/wiki/Beatmap) 또한 마지막 업데이트에 포함되어 표시됩니다.
+
+### 구독/구독 해제
+
+`구독` 및 `구독 해제` 버튼은 비트맵의 개발 과정 알림 수신 여부를 결정합니다. 비트맵을 구독할 경우, 웹사이트를 통해 새로운 모딩이나 답글 등의 알림을 수신할 수 있습니다. [모딩 구독 리스트](https://osu.ppy.sh/beatmapsets/watches)를 통해 지금까지 구독한 비트맵들을 관리할 수 있습니다.
+
+### 비트맵 정보
+
+`비트맵 정보` 버튼을 통해 비트맵 정보 페이지로 돌아갈 수 있습니다. [비트맵 헤더](#beatmap-header)를 통해 돌아갈 수도 있습니다.
+
+## 모딩 탭
+
+![](img/modding-tabs.jpg "모딩 탭")
+
+다른 종류의 모딩을 분류하기 위해 모딩 과정은 3개의 탭으로 나뉘어 진행됩니다. 덧붙여 변경 사항들을 기록한 로그 탭까지 추가하면 총 4개입니다. 각 탭 우측에 쓰여 있는 숫자는 해당 탭의 게시글 개수를 의미합니다.
+
+`일반 (모든 난이도)` 탭은 모든 난이도에 해당되는 공통적인 게시글을 표시합니다. 이 탭에는 주로 메타데이터, 노트, 비트맵에 전반적으로 해당되는 모딩 등이 포함됩니다.
+
+`일반 (해당 난이도)` 탭은 해당 난이도에 해당되는 게시글을 표시합니다. 이 탭에는 주로 맵 세팅, 반복적인 이슈 및 전반적인 문제점이 포함됩니다.
+
+`타임라인` 탭은 타임스탬프를 통해 비트맵의 특정 부분을 표시한 게시글을 표시합니다. 이 탭에 있는 모든 게시글은 타임스탬프를 포함해야 합니다. 게시글 가장 처음에 있는 타임스탬프만이 정렬에 사용됩니다.
+
+`기록` 탭은 비트맵 토론 페이지의 모든 변경 사항들을 시간순으로 표시합니다. 변경 사항들은 색상별로 표시되어 있으며, 녹색은 해결된 모딩 및 상태 변경을 의미하고, 빨강색은 지명 이후 발견된 문제를 의미합니다. 이 외는 모두 파란색으로 표시됩니다. 변경사항의 고유 숫자를 누르면 해당 게시글로 이동합니다. 이 탭은 실제 모딩에는 사용되지 않으나 [BN](/wiki/People/The_Team/Beatmap_Nominators)과 다른 스태프들이 문제점을 확인하는데 유용합니다.
+
+
+## 제출란
+
+![](img/submission-field.jpg "모딩 쓰는 곳")
+
+제출란은 실제로 [모딩](/wiki/Modding)이 쓰여지는 곳입니다. 여기서 쓰여진 모딩은 비트맵 토론 페이지에 올라가게 됩니다. `칭찬`, `제안` or `문제` 중 해당되는 버튼을 눌러 모딩을 제출할 수 있습니다.
+
+`칭찬`은 칭찬과 격려를 위해 사용됩니다. `제안`은 규칙을 어기지 않는 주관적인 문제점에 대해 다룹니다. `문제`는 [랭크 규정](/wiki/Ranking_Criteria)을 위반하거나, 객관적으로 옳지 않은 문제점에 대해 다룹니다. 버튼을 누르면 해당 모딩은 비트맵 토론 페이지에 올라갑니다.
+
+`타임라인` 탭에 모딩을 작성할 경우, 반드시 타임스탬프를 포함하여야 합니다. 해당 타임스탬프가 이미 작성된 모딩과 시간적으로 가까울 경우, 작성한 모딩이 이미 존재하는 모딩과 관련이 없는지 확인하여야 합니다. **박스에 체크하기 전에 각 모딩을 꼭 확인하세요!** `고정` 기능을 통해 모딩 제출란을 고정하여 스크롤하면 유용할 수도 있습니다.
+
+## 토론
+
+![](img/discussions.jpg "토론들이 모여있는 곳입니다")
+
+[제출란](#submission-field)을 통해 제출된 모딩들은 토론 페이지에 등록됩니다. 토론 페이지를 방문한 유저들은 누구나 다른 사람들이 등록한 모딩을 볼 수 있으며, 토론에 참여할 수 있습니다. `답변` 또한 `답장` 버튼을 통해 답장할 수 있습니다. After finishing a reponse, pressing `Enter` or clicking `Reply` will submit it to the discussion.
+
+The beatmap creator and authors of modposts have the ability to close issues with the `Mark as Resolved` button. This marks the issue has having been dealt with to other users and removes it from the `Pending` [sorting option](#sorting-options). Modposts can be reopened by any user by adding further replies to a post and clicking `Reply and Reopen`. This is used when modders stumble upon closed issues which have not been fixed fully, or a topic needs further discussion.
+
+### Discussions sorting
+
+Discussions can be sorted through with the buttons below the `Discussions` title. Initially, `Timeline` tab posts will be sorted chronologically based on the first timestamp provided. `General (All difficulties)` and `General (This difficulty)` posts will be sorted by last update. Note that any selected [sorting options](#sorting-options) will change what is displayed here as well. Other buttons at the top of the discussion field which change how discussions are viewed include `Collapse all` and `Expand all` which will show/hide posts respectively.
+
+### Thumbs up/down
+
+If a modpost was helpful [Kudosu!](/wiki/Modding/Kudosu) can be given. This can be done by anyone except the post creator by giving the post a thumbs up. This is useful for modders as Kudosu! is needed for entry into the [Beatmap Nominators](/wiki/People/The_Team/Beatmap_Nominators). If this feature is abused, [BN](/wiki/People/The_Team/Beatmap_Nominators), [NAT](/wiki/People/The_Team/Nomination_Assessment_Team), and [GMT](/wiki/People/The_Team/Global_Moderation_Team) members can give a thumbs down to deny any Kudosu! given. If the abuse is done maliciously a penalty can also be given to abusers.
+
+### Discussion timeline
+
+The timeline to the left of a discussion shows the timestamp the post addresses. This is only available in the `Timeline` section. Otherwise the discussion timeline will be left blank.
+
+### Tags
+
+Tags display [important roles](/wiki/People/The_Team) below a users name. Only roles relevant for the beatmap discussion are shown. These include `MAPPER`, `BN`, `NAT`, `GMT`, and `DEV` members who have more options than a regular user looking at a discussion page.
+
+### Formatting tools
+
+Owners of a post on a discussion page can use formatting tools to make usage more painless. This includes permalinks, edits and deletions.
+
+`Permalink` grabs a direct link to a post. This will show up as a reference number (e.g. `#1234567`) to other users, which can be clicked to quickly move to the referenced post. This is especially useful when referencing issues across modposts.
+
+`Edit` allows a user to edit their submission in case of mistakes. This is not intended to be used for replying to messages. Create a new reply instead.
+
+`Delete` allows the submitter to remove their submission in case of severe mistakes. This feature is disabled for posts with discussion on them to hinder deletions caused by heated discussion.
+
+<!--TODO: insert lots of links-->
