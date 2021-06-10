@@ -131,9 +131,9 @@ tags:
 
 ![](img/discussions.jpg "토론들이 모여있는 곳입니다")
 
-[제출란](#submission-field)을 통해 제출된 모딩들은 토론 페이지에 등록됩니다. 토론 페이지를 방문한 유저들은 누구나 다른 사람들이 등록한 모딩을 볼 수 있으며, 토론에 참여할 수 있습니다. `답변` 또한 `답장` 버튼을 통해 답장할 수 있습니다. After finishing a reponse, pressing `Enter` or clicking `Reply` will submit it to the discussion.
+[제출란](#submission-field)을 통해 제출된 모딩들은 토론 페이지에 등록됩니다. 토론 페이지를 방문한 유저들은 누구나 다른 사람들이 등록한 모딩을 볼 수 있으며, 토론에 참여할 수 있습니다. `답변` 또한 `답장` 버튼을 통해 답장할 수 있습니다. 답변을 작성한 이후, `엔터`키 또는 `답장` 버튼을 눌러 제출할 수 있습니다.
 
-The beatmap creator and authors of modposts have the ability to close issues with the `Mark as Resolved` button. This marks the issue has having been dealt with to other users and removes it from the `Pending` [sorting option](#sorting-options). Modposts can be reopened by any user by adding further replies to a post and clicking `Reply and Reopen`. This is used when modders stumble upon closed issues which have not been fixed fully, or a topic needs further discussion.
+비트맵 제작자와 모딩 작성자는 `답변하고 토론 마무리하기` 버튼을 통해 해당 모딩을 마무리 지을 수 있습니다. This marks the issue has having been dealt with to other users and removes it from the `Pending` [sorting option](#sorting-options). Modposts can be reopened by any user by adding further replies to a post and clicking `Reply and Reopen`. This is used when modders stumble upon closed issues which have not been fixed fully, or a topic needs further discussion.
 
 ### Discussions sorting
 
