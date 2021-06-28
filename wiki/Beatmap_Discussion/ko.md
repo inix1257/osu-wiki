@@ -133,32 +133,32 @@ tags:
 
 [제출란](#submission-field)을 통해 제출된 모딩들은 토론 페이지에 등록됩니다. 토론 페이지를 방문한 유저들은 누구나 다른 사람들이 등록한 모딩을 볼 수 있으며, 토론에 참여할 수 있습니다. `답변` 또한 `답장` 버튼을 통해 답장할 수 있습니다. 답변을 작성한 이후, `엔터`키 또는 `답장` 버튼을 눌러 제출할 수 있습니다.
 
-비트맵 제작자와 모딩 작성자는 `답변하고 토론 마무리하기` 버튼을 통해 해당 모딩을 마무리 지을 수 있습니다. This marks the issue has having been dealt with to other users and removes it from the `Pending` [sorting option](#sorting-options). Modposts can be reopened by any user by adding further replies to a post and clicking `Reply and Reopen`. This is used when modders stumble upon closed issues which have not been fixed fully, or a topic needs further discussion.
+비트맵 제작자와 모딩 작성자는 `답변하고 토론 마무리하기` 버튼을 통해 해당 모딩을 마무리 지을 수 있습니다. 이는 해당 이슈가 다른 유저들과의 토론을 통해 마무리 되었음을 의미하며 해당 모딩을 `대기` [필터 옵션](#sorting-options)에서 제거합니다. 누구나 `답변 및 재개` 버튼을 통해 마무리된 모딩 게시글을 재개할 수 있습니다. 이는 모딩이 제대로 고쳐지지 않았거나, 해당 주제가 추가적인 토론이 필요한 경우 모더의 판단 하에 사용됩니다.
 
-### Discussions sorting
+### 토론 정렬
 
-Discussions can be sorted through with the buttons below the `Discussions` title. Initially, `Timeline` tab posts will be sorted chronologically based on the first timestamp provided. `General (All difficulties)` and `General (This difficulty)` posts will be sorted by last update. Note that any selected [sorting options](#sorting-options) will change what is displayed here as well. Other buttons at the top of the discussion field which change how discussions are viewed include `Collapse all` and `Expand all` which will show/hide posts respectively.
+`토론` 아래에 있는 여러 버튼을 통해 토론을 정렬할 수 있습니다. 초기 설정으로는, `타임라인` 탭에서는 해당 모딩의 첫 타임스탬프를 기준으로 시간순으로 정렬됩니다. `일반 (모든 난이도)` 와 `일반 (해당 난이도)` 탭에서는 마지막 업데이트를 기준으로 정렬됩니다. 유의할 점으로는 [필터 옵션](#sorting-options) 에서 선택된 필터 역시 해당 탭에 적용됩니다. 토론 구역 상단에 위치한 `모두 축소하기` 및 `모두 확대하기` 는 각각 게시글들을 보이게 하거나 숨깁니다.
 
-### Thumbs up/down
+### 추천/비추천
 
-If a modpost was helpful [Kudosu!](/wiki/Modding/Kudosu) can be given. This can be done by anyone except the post creator by giving the post a thumbs up. This is useful for modders as Kudosu! is needed for entry into the [Beatmap Nominators](/wiki/People/The_Team/Beatmap_Nominators). If this feature is abused, [BN](/wiki/People/The_Team/Beatmap_Nominators), [NAT](/wiki/People/The_Team/Nomination_Assessment_Team), and [GMT](/wiki/People/The_Team/Global_Moderation_Team) members can give a thumbs down to deny any Kudosu! given. If the abuse is done maliciously a penalty can also be given to abusers.
+모딩 게시글이 유용했을 경우 [쿠도스](/wiki/Modding/Kudosu)를 지급할 수 있습니다. 이는 모딩 게시글 작성자 본인을 제외한 누구나 게시글 우측 상단에 위치한 엄지를 치켜든 버튼을 눌러 지급할 수 있습니다. 이는 [BN](/wiki/People/The_Team/Beatmap_Nominators)에 지원할 때 사용되는 쿠도스가 필요한 모더들에게 유용합니다. 해당 시스템이 악용될 경우, [BN](/wiki/People/The_Team/Beatmap_Nominators), [NAT](/wiki/People/The_Team/Nomination_Assessment_Team), 그리고 [GMT](/wiki/People/The_Team/Global_Moderation_Team) 멤버들이 엄지를 내려 쿠도스 지급을 철회시킬 수 있습니다. 
 
-### Discussion timeline
+### 토론 타임라인
 
-The timeline to the left of a discussion shows the timestamp the post addresses. This is only available in the `Timeline` section. Otherwise the discussion timeline will be left blank.
+토론 게시글의 왼쪽에는 해당 게시글이 가르키는 타임스탬프가 표시되어 있습니다. 이는 `타임라인` 탭에서만 존재합니다. 그 외의 경우 토론 타임라인은 빈칸입니다.
 
-### Tags
+### 태그
 
-Tags display [important roles](/wiki/People/The_Team) below a users name. Only roles relevant for the beatmap discussion are shown. These include `MAPPER`, `BN`, `NAT`, `GMT`, and `DEV` members who have more options than a regular user looking at a discussion page.
+유저 이름 아래에는 [중요 역할](/wiki/People/The_Team)이 표시된 태그가 위치합니다. 비트맵 토론과 관련된 역할만이 표시됩니다. 이는 `MAPPER`, `BN`, `NAT`, `GMT`, 그리고 `DEV` 등 보통 유저들보다 비트맵 토론 페이지에서 권한이 높은 유저들을 포함합니다.
 
-### Formatting tools
+### 서식 도구
 
-Owners of a post on a discussion page can use formatting tools to make usage more painless. This includes permalinks, edits and deletions.
+모딩을 작성할 때 서식 도구를 이용하여 게시글을 좀 더 쉽게 관리할 수 있습니다. 여기에는 고유 주소, 편집, 삭제가 포함됩니다.
 
-`Permalink` grabs a direct link to a post. This will show up as a reference number (e.g. `#1234567`) to other users, which can be clicked to quickly move to the referenced post. This is especially useful when referencing issues across modposts.
+`고유 주소`는 해당 모딩 게시글의 고유한 주소를 복사합니다. 이는 다른 유저들에게는 고유 숫자 (예: `#1234567`)로 보여지며, 이를 클릭할 경우 해당 모딩 게시글로 빠르게 이동할 수 있습니다. 이는 다른 모딩 게시글에 있는 이슈를 참조할 때 유용하게 사용됩니다.
 
-`Edit` allows a user to edit their submission in case of mistakes. This is not intended to be used for replying to messages. Create a new reply instead.
+게시글 작성자는 `편집`을 통해 모딩 게시글을 수정할 수 있습니다. 이는 댓글에 대한 답장으로 사용되서는 안 되며 답장을 위해선 새로운 답변을 달아야 합니다.
 
-`Delete` allows the submitter to remove their submission in case of severe mistakes. This feature is disabled for posts with discussion on them to hinder deletions caused by heated discussion.
+`삭제`를 통해 모딩 게시글을 삭제할 수 있습니다. 토론이 진행되고 있는 게시글의 경우 토론이 중단되는 것을 막기 위해 삭제가 불가능합니다.
 
 <!--TODO: insert lots of links-->
